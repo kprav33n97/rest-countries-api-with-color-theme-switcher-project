@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Nunito Sans, sans-serif;
+}
+
+main {
+    padding-inline: 15px;
+    max-width: 1440px;
+    margin-inline: auto;
+}
+
+a {
+    text-decoration-line: none;
+    color: inherit;
+}
+
+.title {
+    font-weight: 800;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin-inline: auto;
+}
+
+.header-container {
+    padding-inline: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.countries-container {
+    max-width: 1440px;
+    margin-inline: auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.country-card {
+    width: 300px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.country-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 8px;
+    transform: scale(1.025);
+}
+
+.country-card img {
+    width: 100%;
+}
+
+.card-text {
+    padding-inline: 15px;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-block: 12px;
+}
+
+.card-text p {
+    margin-block: 8px;
+}
+
+.search-filter-container {
+    margin-block: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-filter {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    max-width: 400px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-filter input {
+    border: none;
+    outline: none;
+    color: #666;
+    width: 100%;
+}
+
+.search-filter input::placeholder {
+    color: #666;
+}
+
+.search-filter i {
+    color: #666;
+    font-size: 14px;
+}
+
+.search-filter {
+    flex: 0 0 50%;
+}
+
+.select-options {
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding-inline: 15px;
+    padding-block: 5px;
+    width: 200px;
+}
